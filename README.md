@@ -1,5 +1,5 @@
-### Goal of this boilerplate
-* how to connect: react, redux, redux-form, Sass, webpack2, HMR3
+### Goals of this boilerplate
+* show how to connect: react, redux, redux-form, Sass, webpack2, HMR3
 * final compiled container should be easily embadable in any server, ie: Apache
 
 ### How to build dev version and run ?

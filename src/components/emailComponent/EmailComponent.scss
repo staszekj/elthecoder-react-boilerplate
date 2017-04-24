@@ -1,0 +1,108 @@
+.eltrue-email {
+
+  .display-none {
+    display: none;
+  }
+
+  form {
+    margin-bottom: 0;
+
+    fieldset {
+      margin-bottom: 0;
+    }
+  }
+
+  label {
+    font: 15px/24px 'opensans-bold', sans-serif;
+    margin: 12px 0;
+    color: #EBEEEE;
+    display: inline-block;
+    float: left;
+    width: 26%;
+  }
+
+  input,
+  textarea,
+  select {
+    padding: 18px 20px;
+    color: #eee;
+    background: #373233;
+    margin-bottom: 42px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    width: 65%;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    color: #fff;
+    background-color: #11ABB0;
+  }
+
+  button.submit {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #0D0D0D;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    display: inline-block;
+    border-radius: 3px;
+    margin-bottom: 0;
+    outline: 0;
+  }
+
+  button.submit:hover {
+    color: #0D0D0D;
+    background: #fff;
+  }
+
+  span.required {
+    color: #11ABB0;
+    font-size: 13px;
+  }
+
+  .submit-row {
+    padding-left: 26%;
+    img {
+      margin-left: 5px;
+      height: 32px;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+    .display-none {
+      display: none;
+    }
+  ;
+    .display-inline {
+      display: inline;
+    }
+  ;
+  }
+
+  .message {
+    opacity: 0;
+    height: 35px;
+    transition: opacity .5s ease-in-out;
+
+    i {
+      margin-right: 10px;
+    }
+
+    &.warning {
+      opacity: 1;
+      color: #D72828;
+    }
+
+    &.success {
+      opacity: 1;
+      color: #11ABB0;
+    }
+
+  }
+
+}
